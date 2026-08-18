@@ -53,6 +53,20 @@
   color: var(--text-heading);
 }
 
+.brand-logo-img {
+  height: 46px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.brand-logo:hover .brand-logo-img {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.4));
+}
+
 .logo-symbol {
   width: 38px;
   height: 38px;
