@@ -48,7 +48,7 @@ function initContactForm() {
       title: 'Message Sent Successfully! 🎉',
       subtitle: `Hi ${formData.fullName}, thanks for reaching out! Our team will get back to you within 24 hours.`,
       details: [
-        `📧 <strong>Admin Notification:</strong> Dispatched to Inesta.automation.hub@gmail.com`,
+        `📧 <strong>Admin Notification:</strong> Dispatched to iniesta.automatiom@gmail.com`,
         `👤 <strong>Name:</strong> ${formData.fullName}`,
         `✉️ <strong>Email:</strong> ${formData.email}`,
         `🏢 <strong>Company:</strong> ${formData.company} (${formData.companySize})`,
@@ -241,7 +241,7 @@ function showBookingConfirmationModal(formData) {
         <div><strong>👤 Client:</strong> ${formData.fullName} | <strong>Company:</strong> ${formData.company} (${formData.companySize})</div>
         <div><strong>📞 Phone:</strong> ${formData.phone} | <strong>Email:</strong> ${formData.email}</div>
         <div><strong>🎯 Needs:</strong> "${formData.helpTopic}"</div>
-        <div style="margin-top: 6px; color: #00FF88;">✓ Admin email alert dispatched to <strong>Inesta.automation.hub@gmail.com</strong></div>
+        <div style="margin-top: 6px; color: #00FF88;">✓ Admin email alert dispatched to <strong>iniesta.automatiom@gmail.com</strong></div>
       </div>
 
       <!-- Calendly Widget Placeholder Frame -->

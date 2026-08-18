@@ -200,7 +200,7 @@ function initChatbotLogic() {
     // 6. Contact Information / Inoluwa
     if (q.includes('contact') || q.includes('email') || q.includes('phone') || q.includes('inoluwa') || q.includes('address') || q.includes('location')) {
       return `You can reach Inoluwa and the Iniesta team directly:<br><br>
-      📧 <strong>Email:</strong> <a href="mailto:Inesta.automation.hub@gmail.com" style="color:#00D4FF;">Inesta.automation.hub@gmail.com</a><br>
+      📧 <strong>Email:</strong> <a href="mailto:iniesta.automatiom@gmail.com" style="color:#00D4FF;">iniesta.automatiom@gmail.com</a><br>
       📞 <strong>Phone:</strong> +234 810-627-3746 / 081-3538-4333<br>
       📍 <strong>Location:</strong> Akure, Ondo State, Nigeria<br><br>
       👉 Or leave a message on our <a href="contact.html" style="color:#00D4FF;text-decoration:underline;">Contact Page</a>.`;
@@ -212,6 +212,6 @@ function initChatbotLogic() {
     }
 
     // 8. Default fallback
-    return `Let me connect you with <strong>Inoluwa</strong> directly. You can email us at <a href="mailto:Inesta.automation.hub@gmail.com" style="color:#00D4FF;">Inesta.automation.hub@gmail.com</a> or <a href="book.html" style="color:#E63946;font-weight:700;">book a free strategy call</a> to discuss your specific requirements.`;
+    return `Let me connect you with <strong>Inoluwa</strong> directly. You can email us at <a href="mailto:iniesta.automatiom@gmail.com" style="color:#00D4FF;">iniesta.automatiom@gmail.com</a> or <a href="book.html" style="color:#E63946;font-weight:700;">book a free strategy call</a> to discuss your specific requirements.`;
   }
 }
