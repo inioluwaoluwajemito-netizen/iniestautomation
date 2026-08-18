@@ -318,7 +318,7 @@ function openArticleModal(post) {
         ${post.content}
       </div>
       <div style="margin-top: 32px; text-align: center;">
-        <a href="book.html" class="btn btn-red">Book a Free AI Strategy Call</a>
+        <a href="https://calendar.app.google/Xt1GoHFKonVmbPWe8" target="_blank" rel="noopener" class="btn btn-red">Book a Free AI Strategy Call</a>
       </div>
     </div>
   `;

@@ -244,7 +244,7 @@ function showBookingConfirmationModal(formData) {
         <div style="margin-top: 6px; color: #00FF88;">✓ Admin email alert dispatched to <strong>iniesta.automatiom@gmail.com</strong></div>
       </div>
 
-      <!-- Calendly Widget Placeholder Frame -->
+      <!-- Google Calendar Widget Frame -->
       <div style="background: rgba(17,34,64,0.9); border: 1px dashed var(--accent-cyan); border-radius: 14px; padding: 30px 20px; text-align: center; margin-bottom: 20px;">
         <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(0,212,255,0.15); border: 1px solid var(--accent-cyan); display: inline-flex; align-items: center; justify-content: center; color: var(--accent-cyan); margin-bottom: 12px;">
           📅
@@ -254,7 +254,7 @@ function showBookingConfirmationModal(formData) {
           30-Minute AI Strategy & Automation Discovery Session with Inoluwa.
         </p>
         <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-          <a href="https://calendly.com" target="_blank" rel="noopener" class="btn btn-sm btn-cyan">Open in Calendly Portal ↗</a>
+          <a href="https://calendar.app.google/Xt1GoHFKonVmbPWe8" target="_blank" rel="noopener" class="btn btn-sm btn-cyan">Open Google Calendar ↗</a>
           <button class="btn btn-sm btn-outline" id="confirm-notif-btn">Return to Site</button>
         </div>
       </div>

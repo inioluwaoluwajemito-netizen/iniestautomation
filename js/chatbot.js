@@ -178,7 +178,7 @@ function initChatbotLogic() {
     if (q.includes('book') || q.includes('call') || q.includes('schedule') || q.includes('consult') || q.includes('meeting')) {
       return `You can easily book a <strong>free 30-minute AI Strategy Consultation</strong> with our lead consultant, Inoluwa.<br><br>
       We'll audit your workflows, discuss your bottlenecks, and outline a custom AI implementation blueprint.<br><br>
-      👉 <a href="book.html" class="btn btn-sm btn-red" style="display:inline-block;margin-top:6px;color:#fff !important;">Schedule My Free Call →</a>`;
+      👉 <a href="https://calendar.app.google/Xt1GoHFKonVmbPWe8" target="_blank" rel="noopener" class="btn btn-sm btn-red" style="display:inline-block;margin-top:6px;color:#fff !important;">Schedule My Free Call →</a>`;
     }
 
     // 3. Pricing / Cost
